@@ -1,0 +1,5 @@
+# where are we? dart/api-clients/extensions
+
+dependency_overrides:
+  notion_api_client:
+    path: ../../notion_api_client

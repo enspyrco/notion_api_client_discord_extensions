@@ -1,0 +1,18 @@
+name: notion_api_client_discord_extensions
+description: Extensions on models from notion_api_client, providing String output appropriate for Discord.
+version: 0.0.0-a1
+publish_to: none
+# repository: https://github.com/my_org/my_repo
+
+environment:
+  sdk: ^3.0.0
+
+# Add regular dependencies here.
+dependencies:
+  notion_api_client:
+    git: https://github.com/enspyrco/notion_api_client
+
+dev_dependencies:
+  enspyr_lints:
+    git: https://github.com/enspyrco/enspyr_lints
+  test: ^1.21.0
