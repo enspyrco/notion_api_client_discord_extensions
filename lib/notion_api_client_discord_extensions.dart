@@ -7,5 +7,8 @@ library;
 import 'package:notion_api_client/notion_api_client.dart';
 
 extension PageExtension on Page {
-  toDiscordMessage() {}
+  toDiscordMessage() {
+    return 'created by: $createdBy\n'
+        'on: $createdTime';
+  }
 }
